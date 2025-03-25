@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/jblevins32/IRR5/build/coords_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jblevins32/IRR5/build/coords_pubsub -- -j28 -l28
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target coords_pubsub[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/coords_pubsub.dir/src/coords_pubsub.cpp.o[0m
+[5.552s] [100%] [32m[1mLinking CXX executable coords_pubsub[0m
+[5.865s] [100%] Built target coords_pubsub
+[5.874s] Invoked command in '/home/jblevins32/IRR5/build/coords_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jblevins32/IRR5/build/coords_pubsub -- -j28 -l28
+[5.887s] Invoking command in '/home/jblevins32/IRR5/build/coords_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jblevins32/IRR5/build/coords_pubsub
+[5.895s] -- Install configuration: ""
+[5.896s] -- Installing: /home/jblevins32/IRR5/install/coords_pubsub/lib/coords_pubsub/coords_pubsub
+[5.900s] -- Set runtime path of "/home/jblevins32/IRR5/install/coords_pubsub/lib/coords_pubsub/coords_pubsub" to ""
+[5.900s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/ament_index/resource_index/package_run_dependencies/coords_pubsub
+[5.900s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/ament_index/resource_index/parent_prefix_path/coords_pubsub
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/ament_prefix_path.sh
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/ament_prefix_path.dsv
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/path.sh
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/path.dsv
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.bash
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.sh
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.zsh
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.dsv
+[5.901s] -- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/package.dsv
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/ament_index/resource_index/packages/coords_pubsub
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/cmake/coords_pubsubConfig.cmake
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/cmake/coords_pubsubConfig-version.cmake
+[5.901s] -- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/package.xml
+[5.903s] Invoked command in '/home/jblevins32/IRR5/build/coords_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jblevins32/IRR5/build/coords_pubsub

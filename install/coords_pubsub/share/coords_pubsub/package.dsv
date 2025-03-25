@@ -1,0 +1,8 @@
+source;share/coords_pubsub/hook/cmake_prefix_path.ps1
+source;share/coords_pubsub/hook/cmake_prefix_path.dsv
+source;share/coords_pubsub/hook/cmake_prefix_path.sh
+source;share/coords_pubsub/local_setup.bash
+source;share/coords_pubsub/local_setup.dsv
+source;share/coords_pubsub/local_setup.ps1
+source;share/coords_pubsub/local_setup.sh
+source;share/coords_pubsub/local_setup.zsh

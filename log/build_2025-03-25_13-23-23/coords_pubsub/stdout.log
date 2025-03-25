@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target coords_pubsub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/coords_pubsub.dir/src/coords_pubsub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable coords_pubsub[0m
+[100%] Built target coords_pubsub
+-- Install configuration: ""
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/lib/coords_pubsub/coords_pubsub
+-- Set runtime path of "/home/jblevins32/IRR5/install/coords_pubsub/lib/coords_pubsub/coords_pubsub" to ""
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/ament_index/resource_index/package_run_dependencies/coords_pubsub
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/ament_index/resource_index/parent_prefix_path/coords_pubsub
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/ament_prefix_path.sh
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/ament_prefix_path.dsv
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/path.sh
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/path.dsv
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.bash
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.sh
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.zsh
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.dsv
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/package.dsv
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/ament_index/resource_index/packages/coords_pubsub
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/cmake/coords_pubsubConfig.cmake
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/cmake/coords_pubsubConfig-version.cmake
+-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/package.xml

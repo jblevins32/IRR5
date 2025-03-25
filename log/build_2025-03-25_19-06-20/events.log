@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000330] (coords_pubsub) JobQueued: {'identifier': 'coords_pubsub', 'dependencies': OrderedDict()}
+[0.000368] (coords_pubsub) JobStarted: {'identifier': 'coords_pubsub'}
+[0.004949] (coords_pubsub) JobProgress: {'identifier': 'coords_pubsub', 'progress': 'cmake'}
+[0.005286] (coords_pubsub) JobProgress: {'identifier': 'coords_pubsub', 'progress': 'build'}
+[0.005899] (coords_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jblevins32/IRR5/build/coords_pubsub', '--', '-j28', '-l28'], 'cwd': '/home/jblevins32/IRR5/build/coords_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jblevins32'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jblevins32/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jblevins32'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jblevins32'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9326'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/800880/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jblevins32'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jblevins32'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jblevins32/.mujoco/mujoco210/bin:/home/jblevins32/anaconda3/condabin:/opt/ros/humble/bin:/home/jblevins32/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MEL06988L.me.gatech.edu:@/tmp/.ICE-unix/3842,unix/MEL06988L.me.gatech.edu:/tmp/.ICE-unix/3842'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a6c51fb6_9941_4fd5_82ca_3e2631fda2ab'), ('MUJOCO_PATH', '/home/jblevins32/.mujoco/mujoco210'), ('XDG_RUNTIME_DIR', '/run/user/800880'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('gazebo_DIR', '/usr/lib/x86_64-linux-gnu/cmake/gazebo'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/800880/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/800880/keyring/ssh'), ('ROS_DOMAIN_ID', '41'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jblevins32/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_800880_pjmZfO'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/800880/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jblevins32/IRR5/build/coords_pubsub'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jblevins32/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.027639] (coords_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099611] (-) TimerEvent: {}
+[0.138643] (coords_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.160276] (coords_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.161904] (coords_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.165530] (coords_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.171534] (coords_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.179170] (coords_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199534] (coords_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.199650] (-) TimerEvent: {}
+[0.200447] (coords_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.290973] (coords_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299730] (-) TimerEvent: {}
+[0.324225] (coords_pubsub) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.332403] (coords_pubsub) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.346552] (coords_pubsub) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[0.384427] (coords_pubsub) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.391737] (coords_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.399862] (-) TimerEvent: {}
+[0.448942] (coords_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.449071] (coords_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jblevins32/IRR5/src/coords_pubsub/include>\n'}
+[0.449113] (coords_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.449170] (coords_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.449635] (coords_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.449714] (coords_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.449774] (coords_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.450287] (coords_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.456682] (coords_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.459202] (coords_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/jblevins32/IRR5/build/coords_pubsub\n'}
+[0.483937] (coords_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target coords_pubsub\x1b[0m\n'}
+[0.500014] (-) TimerEvent: {}
+[0.500839] (coords_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/coords_pubsub.dir/src/coords_pubsub.cpp.o\x1b[0m\n'}
+[0.600167] (-) TimerEvent: {}
+[0.700517] (-) TimerEvent: {}
+[0.800901] (-) TimerEvent: {}
+[0.901293] (-) TimerEvent: {}
+[1.001687] (-) TimerEvent: {}
+[1.102007] (-) TimerEvent: {}
+[1.202362] (-) TimerEvent: {}
+[1.302682] (-) TimerEvent: {}
+[1.403032] (-) TimerEvent: {}
+[1.503353] (-) TimerEvent: {}
+[1.603666] (-) TimerEvent: {}
+[1.704057] (-) TimerEvent: {}
+[1.804355] (-) TimerEvent: {}
+[1.904651] (-) TimerEvent: {}
+[2.004928] (-) TimerEvent: {}
+[2.105245] (-) TimerEvent: {}
+[2.205513] (-) TimerEvent: {}
+[2.305808] (-) TimerEvent: {}
+[2.406127] (-) TimerEvent: {}
+[2.506427] (-) TimerEvent: {}
+[2.606736] (-) TimerEvent: {}
+[2.707074] (-) TimerEvent: {}
+[2.807366] (-) TimerEvent: {}
+[2.907676] (-) TimerEvent: {}
+[3.008067] (-) TimerEvent: {}
+[3.108383] (-) TimerEvent: {}
+[3.208741] (-) TimerEvent: {}
+[3.309130] (-) TimerEvent: {}
+[3.409449] (-) TimerEvent: {}
+[3.509754] (-) TimerEvent: {}
+[3.610059] (-) TimerEvent: {}
+[3.710383] (-) TimerEvent: {}
+[3.810708] (-) TimerEvent: {}
+[3.911078] (-) TimerEvent: {}
+[4.011385] (-) TimerEvent: {}
+[4.111721] (-) TimerEvent: {}
+[4.212090] (-) TimerEvent: {}
+[4.312376] (-) TimerEvent: {}
+[4.412664] (-) TimerEvent: {}
+[4.512987] (-) TimerEvent: {}
+[4.613385] (-) TimerEvent: {}
+[4.713765] (-) TimerEvent: {}
+[4.814126] (-) TimerEvent: {}
+[4.914420] (-) TimerEvent: {}
+[5.014725] (-) TimerEvent: {}
+[5.115068] (-) TimerEvent: {}
+[5.215342] (-) TimerEvent: {}
+[5.315584] (-) TimerEvent: {}
+[5.415793] (-) TimerEvent: {}
+[5.516147] (-) TimerEvent: {}
+[5.616510] (-) TimerEvent: {}
+[5.716831] (-) TimerEvent: {}
+[5.817118] (-) TimerEvent: {}
+[5.917383] (-) TimerEvent: {}
+[6.017689] (-) TimerEvent: {}
+[6.117970] (-) TimerEvent: {}
+[6.218456] (-) TimerEvent: {}
+[6.318769] (-) TimerEvent: {}
+[6.419075] (-) TimerEvent: {}
+[6.519356] (-) TimerEvent: {}
+[6.619648] (-) TimerEvent: {}
+[6.719922] (-) TimerEvent: {}
+[6.820284] (-) TimerEvent: {}
+[6.920556] (-) TimerEvent: {}
+[7.020836] (-) TimerEvent: {}
+[7.121206] (-) TimerEvent: {}
+[7.221473] (-) TimerEvent: {}
+[7.321778] (-) TimerEvent: {}
+[7.422153] (-) TimerEvent: {}
+[7.522543] (-) TimerEvent: {}
+[7.622818] (-) TimerEvent: {}
+[7.723146] (-) TimerEvent: {}
+[7.823397] (-) TimerEvent: {}
+[7.857072] (coords_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable coords_pubsub\x1b[0m\n'}
+[7.923503] (-) TimerEvent: {}
+[8.023727] (-) TimerEvent: {}
+[8.123983] (-) TimerEvent: {}
+[8.224341] (-) TimerEvent: {}
+[8.286040] (coords_pubsub) StdoutLine: {'line': b'[100%] Built target coords_pubsub\n'}
+[8.296466] (coords_pubsub) CommandEnded: {'returncode': 0}
+[8.296916] (coords_pubsub) JobProgress: {'identifier': 'coords_pubsub', 'progress': 'install'}
+[8.309217] (coords_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jblevins32/IRR5/build/coords_pubsub'], 'cwd': '/home/jblevins32/IRR5/build/coords_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jblevins32'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jblevins32/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jblevins32'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jblevins32'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9326'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/800880/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jblevins32'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jblevins32'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jblevins32/.mujoco/mujoco210/bin:/home/jblevins32/anaconda3/condabin:/opt/ros/humble/bin:/home/jblevins32/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MEL06988L.me.gatech.edu:@/tmp/.ICE-unix/3842,unix/MEL06988L.me.gatech.edu:/tmp/.ICE-unix/3842'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a6c51fb6_9941_4fd5_82ca_3e2631fda2ab'), ('MUJOCO_PATH', '/home/jblevins32/.mujoco/mujoco210'), ('XDG_RUNTIME_DIR', '/run/user/800880'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('gazebo_DIR', '/usr/lib/x86_64-linux-gnu/cmake/gazebo'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/800880/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/800880/keyring/ssh'), ('ROS_DOMAIN_ID', '41'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jblevins32/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_800880_pjmZfO'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/800880/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jblevins32/IRR5/build/coords_pubsub'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jblevins32/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.321564] (coords_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.321943] (coords_pubsub) StdoutLine: {'line': b'-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/lib/coords_pubsub/coords_pubsub\n'}
+[8.324434] (-) TimerEvent: {}
+[8.328256] (coords_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/jblevins32/IRR5/install/coords_pubsub/lib/coords_pubsub/coords_pubsub" to ""\n'}
+[8.328630] (coords_pubsub) StdoutLine: {'line': b'-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/ament_index/resource_index/package_run_dependencies/coords_pubsub\n'}
+[8.328722] (coords_pubsub) StdoutLine: {'line': b'-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/ament_index/resource_index/parent_prefix_path/coords_pubsub\n'}
+[8.328783] (coords_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/ament_prefix_path.sh\n'}
+[8.328842] (coords_pubsub) StdoutLine: {'line': b'-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/ament_prefix_path.dsv\n'}
+[8.328897] (coords_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/path.sh\n'}
+[8.328950] (coords_pubsub) StdoutLine: {'line': b'-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/environment/path.dsv\n'}
+[8.329076] (coords_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.bash\n'}
+[8.329200] (coords_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.sh\n'}
+[8.329263] (coords_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.zsh\n'}
+[8.329309] (coords_pubsub) StdoutLine: {'line': b'-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/local_setup.dsv\n'}
+[8.329357] (coords_pubsub) StdoutLine: {'line': b'-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/package.dsv\n'}
+[8.329403] (coords_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/ament_index/resource_index/packages/coords_pubsub\n'}
+[8.329447] (coords_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/cmake/coords_pubsubConfig.cmake\n'}
+[8.329491] (coords_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/cmake/coords_pubsubConfig-version.cmake\n'}
+[8.329535] (coords_pubsub) StdoutLine: {'line': b'-- Installing: /home/jblevins32/IRR5/install/coords_pubsub/share/coords_pubsub/package.xml\n'}
+[8.331030] (coords_pubsub) CommandEnded: {'returncode': 0}
+[8.351288] (coords_pubsub) JobEnded: {'identifier': 'coords_pubsub', 'rc': 0}
+[8.351968] (-) EventReactorShutdown: {}
